@@ -26,3 +26,4 @@ int MQTT::PacketId::getNext()
 {
     return next = (next == MAX_PACKET_ID) ? 1 : ++next;
 }
+
